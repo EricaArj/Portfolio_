@@ -38,7 +38,6 @@ body{
     text-decoration: none;
 }
 .cabecalho__menu__link:hover{
-    display: flex;
     background-color: var(--cor-hover2);
 }
 
