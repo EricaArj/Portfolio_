@@ -46,18 +46,15 @@ body{
 }
 
 .cabecalho__menu__link{
+    
     font-family: var(--cor-secundaria);
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
-    justify-content: space-around;
-    display: flex;
-    margin-top: 3rem;
-    margin-left: 6rem;
     width: 100%;
     align-items: center;
-   
+   margin-left: 1rem;
 }
 .cabecalho__menu__link:hover{
     color: var(--cor-hover2);
@@ -141,8 +138,10 @@ body{
     .cabecalho{
          padding: 10%;  
     }
-    .cabecalho__menu{
+    .cabecalho__menu__link{
         justify-content: center;
+       
+        margin-left: auto;
     }
     .apresentacao{
         flex-direction: column-reverse;
