@@ -51,48 +51,63 @@ header .btn-mobile{
     display: none;
 }
 
-.apresentacao{
-    padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 82px;
-}
-.apresentacao__conteudo{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
 
-.apresentacao__conteudo__titulo{
-    font-size: 2.25rem;
-    font-family: var(--fonte-primaria);
+#inicio .container{
+    width: 100%;
+    height: 100vh;
 }
-.titulo-destaque{
-    color: var(--cor-terciaria);
-}
-
-.titulo-destaquegree{
-    color: var(--cor-destaquegree)
-}
-
-.apresentacao__conteudo__texto{
-    font-size: 1.5rem;
-    font-family: var(--fonte-secundaria);
-}
-
-.apresentacao__links{
+#inicio .container .icons{
+    width: 10%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
+    justify-content: center;
+    padding: 0 60px;
+    position: fixed;
+    z-index: 999;
 }
-.apresentacao__links__subtitulo{
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    font-size: 1.5rem;
+#inicio .container .icons ion-icon{
+    padding: 30px 0;
+    font-size: 2rem;
+    color: #fff;
+    transition: 0.5s ease;
+}
+#inicio .container .icons ion-icon:hover{
+    color: #0acf55;
+}
+#inicio .container .title{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 60px;
+}
+#inicio .container .title h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 8rem;
+    letter-spacing: 5px;
+}
+#inicio .container .title h2{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 40px;
+    font-size: 3rem;
+    margin-left: 30px;
+}
+#inicio .container .title h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 20px;
+    margin-top: 30px;
+    margin-left: 35px;
+
+}
+#inicio .container .titulo-destaque{
+    color: #0f8d40;
 }
 .apresentacao__links__navegacao{
     display: flex;
