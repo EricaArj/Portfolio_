@@ -1,32 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header>
-
-        <div class="cabecalho">
-            <li>
-                <a class="cabecalho__menu__link" href="index.html"> Inicio</a>
-            </li>
-            <li>
-                <a class="cabecalho__menu__link" href="about.html"> Sobre mim</a>
-            </li>
-            <li>
-                <a class="cabecalho__menu__link" href="curriculo.html"> Curriculo</a>
-            </li>
-            <li>
-                <a class="cabecalho__menu__link" href="projetos.html"> Projetos</a>
-            </li>
+        <div class="logo">
+            <img src="image/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#port">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <div class="menu-mobile">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#port">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <div class="btn-mobile">
+            <ion-icon name="grid-outline"></ion-icon>
         </div>
     </header>
+
+    <main id="home">
+        <div class="container">
+            <div class="icons">
+                <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href=""><ion-icon name="logo-github"></ion-icon></a>
+                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+            <div class="title">
+                <h1>Erica Araújo</h1>
+                <h2>Desenvolvedora</h2>
+                <h3>Java full stack</h3>
+            </div>
+        </div>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Olá<strong 
