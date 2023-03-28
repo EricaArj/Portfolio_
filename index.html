@@ -13,17 +13,17 @@
         </div>
         <div class="menu">
             <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Sobre mim</a></li>
-                <li><a href="#port">Portfólio</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobremim">Sobre mim</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
         </div>
         <div class="menu-mobile">
             <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Sobre mim</a></li>
-                <li><a href="#port">Portfólio</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobremim">Sobre mim</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
         </div>
@@ -32,7 +32,7 @@
         </div>
     </header>
 
-    <main id="home">
+    <main id="inicio">
         <div class="container">
             <div class="icons">
                 <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
@@ -46,35 +46,95 @@
                 <h3>Java full stack</h3>
             </div>
         </div>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Olá<strong 
-            class="titulo-destaque"> Seja bem-vindo!
-            </strong></h1>
-            <p class="apresentacao__conteudo__texto">Me chamo Erica sou o Desenvolvimento Java full stack, aonde desenvolvi 
-                as tecnologias Spring Boot, MySQL, React, TypeScript, Redux, CSS, Docker, 
-                Insomnia,Git, GitHub, Possuo facilidade em aprender novos conceitos e 
-                identificar padrões que facilitem as minhas aplicações. Ajudo pequenos negócios e designers a
-            colocarem em prática boas ideias. Vamos
-            conversar?</p>
-            <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
-                <a class="apresentacao__links__navegacao" href="https://github.com/EricaArj">
-                    <img src="./assets/github.png">
-                    Github
-                </a>
-                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/ericaaraujojw/">
-                    <img src="./assets/linkedin.png">
-                    linkedin
-                </a>
-                
+    </main>
+
+    <section id="sobremim">
+        <div class="container">
+            <div class="title">
+                <h1>Sou Programador Full Stack</h1>
+                <p>Tecnologias Spring Boot, MySQL, React,
+                    TypeScript, Redux, CSS, Docker, Insomnia,Git, GitHub,conhecimento em Metodologias ágeis.</p>
+                <div class="box-title">
+                    <p>90%</p>
+                    <div class="b1"><div class="b2"></div></div>
+                    <span>Java</span>
+
+                    <p>40%</p>
+                    <div class="b1"><div class="b3"></div></div>
+                    <span>HTML</span>
+
+                    <p>35%</p>
+                    <div class="b1"><div class="b4"></div></div>
+                    <span>css</span>
+
+                    <p>20%</p>
+                    <div class="b1"><div class="b5"></div></div>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+        <section id="portfolio">
+            <div class="container">
+                <input type="radio" name="slider" id="item-1" checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+                <div class="cards">
+                    <label class="card" for="item-1" id="song-1">
+                        <img src="image/01.png" alt="">
+                        <h1>Projeto Intergrador</h1>
+                        <p>The Green Market é um e-commerce de produtos sustentáveis, cujo foco é a obtenção de renda
+                             para doação a organizações que promovem ações de redução das mudanças climáticas. No projeto
+                              utilizamos Spring Boot, MySQL, React, TypeScript, Redux, CSS, Docker, Insomnia, 
+                            GitHub e desenvolvemos nosso trabalho em equipe, persistência e orientação a detalhes.</p>
+                        <button>Acesse o Nosso Repositorio</button>
+                    </label>
+    
+                    <label class="card" for="item-2" id="song-2">
+                        <img src="image/02.png" alt="">
+                        <h1>EmBreve</h1>
+                        <p>Proximo projeto.</p>
+                        <button>Hire me</button>
+                    </label>
+    
+                    <label class="card" for="item-3" id="song-3">
+                        <img src="image/03.png" alt="">
+                        <h1>EmBreve</h1>
+                        <p>Proximo projeto.</p>
+                        <button>Hire me</button>
+                    </label>
+                </div>
             </div>
         </section>
-        <img class="apresentacao__imagem" src="./assets/erica3.png" alt="Foto da Erica Araújo programando">
-    </main>
-    <footer class="rodape">
-        <p>Desenvolvido por Erica Araújo.</p>
-    </footer>
-</body>
-
-</html>
+    
+        <section id="contact">
+            <div class="container">
+                <div class="content-contact">
+                    <div class="contact-left">
+                        <h1> Meus Contatos</h1>
+                        <div class="linha"></div>
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <span>erika.f55@hotmail.com</span>
+                        <ion-icon name="call-outline"></ion-icon>
+                        <span>+55 11 98777-7886</span>
+                        <ion-icon name="location-outline"></ion-icon>
+                        <span>São Paulo,Brazil</span>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+        <footer>
+            <span><a href="">Inicio</a></span>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".btn-mobile").click(function(){
+                    $(".menu-mobile").slideToggle("slow")
+                })
+            })
+        </script>
+    </body>
+    </html>
