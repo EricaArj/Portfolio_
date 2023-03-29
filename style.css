@@ -234,6 +234,14 @@ header .btn-mobile{
 .card p {
     font-size: 19px;
   }
+  .container {
+    width: 80%;
+ }
+
+ .title h1 {
+    font-size: 2em;
+ }
+ 
 #port .container .card  .button{
     position: absolute;
     z-index: 9;
@@ -529,3 +537,4 @@ footer a{
         height: 60%;
     }
 }
+ 
