@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="<br>">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,18 +14,18 @@
         </div>
         <div class="menu">
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobremim">Sobre mim</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#port">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </div>
         <div class="menu-mobile">
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobremim">Sobre mim</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre mim</a></li>
+                <li><a href="#port">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </div>
         <div class="btn-mobile">
@@ -32,21 +33,23 @@
         </div>
     </header>
 
-    <main id="inicio">
+    <main id="home">
         <div class="container">
             <div class="icons">
                 <a href="https://github.com/EricaArj"><ion-icon name="logo-github"></ion-icon></a>
                 <a href="https://www.linkedin.com/in/ericaaraujojw/"><ion-icon name="logo-linkedin"></ion-icon></a>
             </div>
             <div class="title">
-                <h1>Erica <strong class="titulo-destaque" >Araújo</strong></h1>
+                <h1>Erica Araújo</h1>
                 <h2>Desenvolvedora</h2>
                 <h3>Java full stack</h3>
             </div>
         </div>
+		
+		====
     </main>
 
-    <section id="sobremim">
+    <section id="about">
         <div class="container">
             <div class="title">
                 <h1>Sou Programador Full Stack</h1>
@@ -71,68 +74,70 @@
                 </div>
             </div>
         </div>
-        <section id="portfolio">
-            <div class="container">
-                <input type="radio" name="slider" id="item-1" checked>
-                <input type="radio" name="slider" id="item-2">
-                <input type="radio" name="slider" id="item-3">
-                <div class="cards">
-                    <label class="card" for="item-1" id="song-1">
-                        <img src="image/01.png" alt="">
-                        <h1>Projeto Intergrador</h1>
-                        <p>The Green Market é um e-commerce de produtos sustentáveis, cujo foco é a obtenção de renda
-                             para doação a organizações que promovem ações de redução das mudanças climáticas. No projeto
-                              utilizamos Spring Boot, MySQL, React, TypeScript, Redux, CSS, Docker, Insomnia, 
-                            GitHub e desenvolvemos nosso trabalho em equipe, persistência e orientação a detalhes.</p>
-                        <button>Acesse o Nosso Repositorio</button>
-                    </label>
-    
-                    <label class="card" for="item-2" id="song-2">
-                        <img src="image/02.png" alt="">
-                        <h1>EmBreve</h1>
-                        <p>Proximo projeto.</p>
-                        <button>Hire me</button>
-                    </label>
-    
-                    <label class="card" for="item-3" id="song-3">
-                        <img src="image/03.png" alt="">
-                        <h1>EmBreve</h1>
-                        <p>Proximo projeto.</p>
-                        <button>Hire me</button>
-                    </label>
-                </div>
+    </section>
+
+    <section id="port">
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                    <img src="image/01.png" alt="">
+                    <h1>Projeto</h1>
+                    <p>The Green Market é um e-commerce de produtos sustentáveis, cujo foco é a obtenção de renda
+                         para doação a organizações que promovem ações de redução das mudanças climáticas. No projeto
+                          utilizamos Spring Boot, MySQL, React, TypeScript, Redux, CSS, Docker, Insomnia, 
+                        GitHub e desenvolvemos nosso trabalho em equipe, persistência e orientação a detalhes.</p>
+                        <a href="https://github.com/EricaArj/The_Green_Market" class="button">Acesse o Github</a>
+                </label>
+
+                <label class="card" for="item-2" id="song-2">
+                    <img src="image/02.png" alt="">
+                    <h1>EmBreve</h1>
+                    <p>Proximo projeto.</p>
+                    <a href="https://github.com/EricaArj" class="button">Acesse o Github</a>
+                </label>
+
+                <label class="card" for="item-3" id="song-3">
+                    <img src="image/03.png" alt="">
+                    <h1>EmBreve</h1>
+                    <p>Proximo projeto.</p>
+                    <a href="https://github.com/EricaArj" class="button">Acesse o Github</a>
+                </label>
             </div>
-        </section>
-    
-        <section id="contato">
-            <div class="container">
-                <div class="content-contato">
-                    <div class="contato-left">
-                        <h1> Meus Contatos</h1>
-                        <div class="linha"></div>
-                        <ion-icon name="mail-outline"></ion-icon>
-                        <span>erika.f55@hotmail.com</span>
-                        <ion-icon name="call-outline"></ion-icon>
-                        <span>+55 11 98777-7886</span>
-                        <ion-icon name="location-outline"></ion-icon>
-                        <span>São Paulo,Brazil</span>
-                    </div>
-    
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="content-contact">
+                <div class="contact-left">
+                    <h1> Meus Contatos</h1>
+                    <div class="linha"></div>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <span>erika.f55@hotmail.com</span>
+                    <ion-icon name="call-outline"></ion-icon>
+                    <span>+55 11 98777-7886</span>
+                    <ion-icon name="location-outline"></ion-icon>
+                    <span>São Paulo,Brazil</span>
                 </div>
+
             </div>
-        </section>
-        <footer>
-            <span><a href="">Inicio</a></span>
-        </footer>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script>
-            $(document).ready(function(){
-                $(".btn-mobile").click(function(){
-                    $(".menu-mobile").slideToggle("slow")
-                })
+        </div>
+    </section>
+    <footer>
+        <span><a href="">Inicio</a></span>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".btn-mobile").click(function(){
+                $(".menu-mobile").slideToggle("slow")
             })
-        </script>
-    </body>
-    </html>
+        })
+    </script>
+</body>
+</html>
